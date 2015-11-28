@@ -1,0 +1,18 @@
+Package: ggwordcloud
+Title: Create wordcloud using ggplot
+Description: Create a new geom called wordcloud which is expanding the
+        use of geom_text to visualize text based on the frequency of
+        the words and arranged them in an automatic coordinates, hence
+        they are not overlapped each other.
+Version: 1.0
+Author: Ika Pratiwi <ikapr439@student.liu.se>
+Maintainer: Ika Pratiwi <ikapr439@student.liu.se>
+Imports: ggplot2,
+    grid,
+    proto,
+    tm,
+    NLP
+Depends: ggplot2,
+    proto,
+    tm,
+    grid
